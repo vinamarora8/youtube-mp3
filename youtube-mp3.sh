@@ -57,8 +57,7 @@ fi;
 # Rename the output file to output_filename
 if $o ; then
 	echo $0": Renaming file to "$output_filename;
-fi
-
-mv -f "$title".mp3 "$output_filename";
+	mv -f "$title".mp3 "$output_filename";
+fi;
 
 exit 0;
